@@ -5,9 +5,10 @@ const nodeSchema = new mongoose.Schema({
         required: true
 
     },
+
     desc: String
 })
-const nodemodel = mongoose.model('node', nodeSchema)
+const nodemodel = mongoose.model('nodes', nodeSchema)
 
 module.exports = nodemodel;
 
