@@ -7,7 +7,7 @@ const nodeSchema = new mongoose.Schema({
     },
     desc: String
 })
-const node = mongoose.model('node', nodeSchema)
+const nodemodel = mongoose.model('node', nodeSchema)
 
-module.exports = node;
+module.exports = nodemodel;
 
